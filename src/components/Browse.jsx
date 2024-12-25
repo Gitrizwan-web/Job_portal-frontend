@@ -4,7 +4,8 @@ import Job from "./Job";
 import { useDispatch, useSelector } from "react-redux";
 
 
-import { setSearchedQuery } from "../redux/jobSlice";
+;
+import { setSearchedQuery } from "../redux/JobSlice";
 
 
 import useGetAllJobs from '../Hooks/UseGetAllJobs'; // Ensure this path is correct
