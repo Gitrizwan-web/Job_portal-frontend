@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Navbar from "./shared/Navbar";
 import Job from "./Job";
 import { useDispatch, useSelector } from "react-redux";
-import { setSearchedQuery } from "@/redux/jobSlice";
+import { setSearchedQuery } from "../redux/jobSlice";
 import useGetAllJobs from '../Hooks/UseGetAllJobs'; // Ensure this path is correct
 
 
